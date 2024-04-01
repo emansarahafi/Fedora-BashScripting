@@ -1,6 +1,6 @@
 # Fedora-BashScripting
 
-Used different Unix commands to manage a Unix operating system (Fedora).
+This project required using different Unix commands to manage a Unix operating system (Fedora).
 
 ## 1. Deploying a Unix-based operating system using VirtualBox.
 
