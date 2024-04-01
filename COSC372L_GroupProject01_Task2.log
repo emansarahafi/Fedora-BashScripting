@@ -1,0 +1,96 @@
+Script started on 2022-11-06 13:42:36+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# uname -a
+[?2004lLinux ip-10-0-2-15.me-south-1.compute.internal 5.19.7-300.fc37.x86_64 #1 SMP PREEMPT_DYNAMIC Mon Sep 5 15:09:01 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# uname -r
+[?2004l5.19.7-300.fc37.x86_64
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# top
+[?2004l[?1h=[?25l[H[2J(B[mtop - 13:43:09 up 25 min,  1 user,  load average: 1.26, 2.79, 2.51(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 267 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 266 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.2 (B[m[39;49mus,(B[m[39;49m[1m  8.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 75.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m 12.5 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3919.2 (B[m[39;49mtotal,(B[m[39;49m[1m    117.8 (B[m[39;49mfree,(B[m[39;49m[1m   1836.6 (B[m[39;49mused,(B[m[39;49m[1m   1964.8 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   3919.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2744.2 (B[m[39;49mfree,(B[m[39;49m[1m   1174.8 (B[m[39;49mused.(B[m[39;49m[1m   1722.2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
+(B[m   1555 eman      20   0 4027556 261440  93980 S  29.4   6.5   5:05.14 gnome-s+ (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 S  11.8   0.0   0:06.40 ksoftir+ (B[m[39;49m[K
+(B[m[1m   5947 root      20   0  224828   3672   3008 R  11.8   0.1   0:00.03 top      (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 I   5.9   0.0   0:04.29 rcu_pre+ (B[m[39;49m[K
+(B[m    498 root      20   0   49432  12116  11188 S   5.9   0.3   0:02.02 systemd+ (B[m[39;49m[K
+(B[m   2009 eman      20   0  375204   5308   4944 S   5.9   0.1   0:00.26 ibus-en+ (B[m[39;49m[K
+(B[m      1 root      20   0  171952  10408   6652 S   0.0   0.3   0:03.90 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.06 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0.0   0.0   0:04.84 kworker+ (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K[?1l>[25;1H
+[?12l[?25h[K]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# df -h
+[?2004lFilesystem      Size  Used Avail Use% Mounted on
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           2.0G   23M  1.9G   2% /dev/shm
+tmpfs           784M  1.4M  783M   1% /run
+/dev/sda3        39G  5.7G   33G  15% /
+tmpfs           2.0G   16K  2.0G   1% /tmp
+/dev/sda3        39G  5.7G   33G  15% /home
+/dev/sda2       974M  187M  721M  21% /boot
+tmpfs           392M  172K  392M   1% /run/user/1000
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# useradd -c "Manager01" -m manager01
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# passwd manager01
+[?2004lChanging password for user manager01.
+New password: 
+BAD PASSWORD: The password fails the dictionary check - it is based on a dictionary word
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# useradd -c "Employee01" -m employee01
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# passwd employee01
+[?2004lChanging password for user employee01.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# useradd -c "Employee02" -m employee02
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# passwd employee02
+[?2004lChanging password for user employee02.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# mkdir /home/employee01/shared01
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# chown manager01 /home/employee01/shared01
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# chmod 700 /home/employee01/shared01
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# ls -al /home/employee01/shared01
+[?2004ltotal 0
+drwx------. 1 manager01  root        0 Nov  6 13:45 [0m[01;34m.[0m
+drwx------. 1 employee01 employee01 96 Nov  6 13:45 [01;34m..[0m
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# find /opt -siw[Kze +200M
+[?2004l]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# tq[Kar cf log.tar /var/log
+[?2004ltar: Removing leading `/' from member names
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# ls -al /home/eman
+[?2004ltotal 48256
+drwx------. 1 eman eman      402 Nov  6 13:47 [0m[01;34m.[0m
+drwxr-xr-x. 1 root root       86 Nov  6 13:45 [01;34m..[0m
+-rw-r--r--. 1 eman eman       18 Jul 21 00:54 .bash_logout
+-rw-r--r--. 1 eman eman      141 Jul 21 00:54 .bash_profile
+-rw-r--r--. 1 eman eman      492 Jul 21 00:54 .bashrc
+drwx------. 1 eman eman      406 Nov  6 13:48 [01;34m.cache[0m
+drwxr-xr-x. 1 eman eman      278 Nov  6 13:48 [01;34m.config[0m
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mDesktop[0m
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mDocuments[0m
+drwxr-xr-x. 1 eman eman      414 Nov  6 13:41 [01;34mDownloads[0m
+drwx------. 1 eman eman       20 Oct 23 17:18 [01;34m.local[0m
+-rw-r--r--. 1 root root 49387520 Nov  6 13:47 [01;31mlog.tar[0m
+drwxr-xr-x. 1 eman eman       48 Oct 27 12:47 [01;34m.mozilla[0m
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mMusic[0m
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mPictures[0m
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mPublic[0m
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mTemplates[0m
+-rw-r-----. 1 eman eman        5 Nov  6 13:18 .vboxclient-clipboard.pid
+-rw-r-----. 1 eman eman        5 Nov  6 13:18 .vboxclient-draganddrop.pid
+-rw-r-----. 1 eman eman        5 Nov  6 13:18 .vboxclient-seamless.pid
+drwxr-xr-x. 1 eman eman        0 Oct 23 17:18 [01;34mVideos[0m
+]0;root@ip-10-0-2-15:/home/eman[?2004h[root@ip-10-0-2-15 eman]# exit
+[?2004lexit
+
+Script done on 2022-11-06 13:49:02+03:00 [COMMAND_EXIT_CODE="0"]
