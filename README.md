@@ -22,5 +22,5 @@ This project required using different Unix commands to manage a Unix operating s
 - Removes the largest files.
 
 ## 5. Create a script that:
-- Check if Firefox is running in the background.
-- Kill the Firefox application.
+- Checks if Firefox is running in the background.
+- Kills the Firefox application.
