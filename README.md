@@ -9,7 +9,7 @@ This project required using different Unix commands to manage a Unix operating s
 - Creating three user accounts, Manager01, Employee01, Employee02
 - Creating a directory on the Employee01 account that can be accessed only by Manager01.
 - Searching for files larger than 200 MB in the "/opt" directory.
-- Create a tar named "log.tar" for the "/var/log" directory.
+- Creating a tar named "log.tar" for the "/var/log" directory.
   
 ## 3. Create a script that:
 - Reads the first name.
